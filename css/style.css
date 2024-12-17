@@ -1,15 +1,4 @@
 
-#outline2{
-    display:grid;
-    grid-template-columns: 30% 20% 20% 30%;
-    grid-template-rows: 20vh 30vh auto 20vh;
-    grid-gap: 20px;
-    grid-template-areas: 
-    "hd hd hd hd"
-    "nv1 nv1 nv1"
-    "mn1 mn1 mn1 mn1"
-    "ft ft ft ft";
-}
 #outline{
     display:grid;
     grid-template-columns: 30% 20% 20% 30%;
@@ -17,13 +6,27 @@
     grid-gap: 20px;
     grid-template-areas: 
     "hd hd hd hd"
-    "nv2 nv2 nv2 nv2"
+    "nv1 nv1 nv1 nv1"
     "mn2 mn2 mn2 mn2"
     "as21 se21 se21 se21"
     "as22 se22 se22 se22"
     "as23 se23 se23 se23"
     "ft ft ft ft";
 }
+
+
+#outline2{
+    display:grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    grid-template-rows: 20vh 30vh auto 20vh;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "nv2 nv2 nv2"
+    "mn1 mn1 mn1 mn1"
+    "ft ft ft ft";
+}
+
 
 #outline3{
     display:grid;
@@ -39,14 +42,25 @@
     "ft ft ft ft";
 }
 
+
+
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area: hd;
+    width: 100%;
     background-color: blue;
-    grid-column-start: 1;
-    grid-column-end: 3;
     font-size: 20px;
     text-align: center;
 }
+
+#headertitle{
+    margin: 0%;
+    width: fit-content;
+    height: fit-content;
+}
+
 footer{
     grid-area: ft;
     background-color:aquamarine;
@@ -60,8 +74,6 @@ footer{
 nav#nv1{
     grid-area: nv1;
     background-color:blueviolet;
-    grid-column-start: 1;
-    grid-column-end: 3;
     font-size: 20px;
 }
 
