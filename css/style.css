@@ -5,8 +5,9 @@
     grid-template-rows: 20vh 30vh auto 20vh;
     grid-gap: 20px;
     grid-template-areas:
+   
     "hd hd hd hd"
-    "nv1 nv1 nv1"
+    "nv1 nv1 nv1 nv1"
     "mn1 mn1 mn1 mn1"
     "ft ft ft ft";
 }
@@ -18,6 +19,7 @@
     grid-template-rows: 20vh 15vh 35vh 35vh 35vh 35vh 20vh ;
     grid-gap: 20px;
     grid-template-areas: 
+   
     "hd hd hd hd"
     "nv2 nv2 nv2 nv2"
     "mn2 mn2 mn2 mn2"
@@ -34,6 +36,7 @@
     grid-template-rows: 20vh 35vh 10vh 50vh 30vh 20vh;
     grid-gap: 20px;
     grid-template-areas: 
+    
     "hd hd hd hd"
     "nv3 nv3 nv3 nv3"
     "nv31 nv31 nv31 nv31"
@@ -49,7 +52,7 @@ header{
     align-items: center;
     grid-area: hd;
     width: 100%;
-    background-color: blue;
+    background-color:blue;
     font-size: 20px;
     text-align: center;
 }
@@ -64,7 +67,6 @@ footer{
     grid-area: ft;
     background-color:aquamarine;
     font-size: 20px;
-    text-align: center;
 }
 
 
@@ -96,48 +98,48 @@ nav#nv31{
     font-size: 20px;
 }
 
-mn#mn1{
-    grid-area: mn1;
+main#mn1{
+    grid-area:mn1;
     background-color:aqua; 
     font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
-mn#mn2{
+main#mn2{
     grid-area: mn2;
     background-color:aqua; 
     grid-column-start: 2;
     grid-column-end: 3;
     font-size: 20px;
 }
-mn#mn3{
+main#mn3{
     grid-area: mn3;
     background-color:aqua; 
     grid-column-start: 2;
     grid-column-end: 3;
     font-size: 20px;
 }
-se#se3{
-    grid-area: se3;
-    background-color:aqua; 
-    grid-column-start: 2;
-    grid-column-end: 3;
-    font-size: 20px;
-}
 
-as#as21{
+
+
+aside#as21{
     grid-area: as21;
     background-color:deeppink; 
     grid-column-start: 1;
     grid-column-end: 2;
     font-size: 20px;
 }
-as#as22{
+aside#as22{
     grid-area: as22;
     background-color:deeppink; 
     grid-column-start: 1;
     grid-column-end: 2;
     font-size: 20px;
 }
-as#as23{
+aside#as23{
     grid-area: as23;
     background-color:deeppink; 
     grid-column-start: 1;
@@ -146,24 +148,29 @@ as#as23{
 }
 
 
-se#se21{
+section#se21{
     grid-area: se21;
     background-color:lightyellow; 
     grid-column-start: 2;
     grid-column-end: 4;
     font-size: 20px;
 }
-se#se22{
+section#se22{
     grid-area: se22;
     background-color:lightyellow; 
     grid-column-start: 2;
     grid-column-end: 4;
     font-size: 20px;
 }
-se#se23{
+section#se23{
     grid-area: se23;
     background-color:lightyellow; 
     grid-column-start: 2;
     grid-column-end: 4;
     font-size: 20px;
 }   
+
+section#se3{
+    grid-area: se3;
+    background-color:aqua; 
+    font-size: 20px;}
