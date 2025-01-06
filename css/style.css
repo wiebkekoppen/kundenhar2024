@@ -253,11 +253,30 @@ section#se3{
 }
 
 
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
 .fantasy{ 
     box-shadow: rgba(155, 89, 182, 0.4) -5px 5px, rgba(155, 89, 182, 0.3) -10px 10px, rgba(155, 89, 182, 0.2) -15px 15px, rgba(155, 89, 182, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     border: 6px solid #9b59b6;
-
+    
+    position: relative;
+    text-align: center;
+    color: white;
 }
+.container{
+
+    position: relative;
+    text-align: center;
+    color: white;
+} 
+
 .drama{
     box-shadow: rgba(155, 89, 182, 0.4) -5px 5px, rgba(155, 89, 182, 0.3) -10px 10px, rgba(155, 89, 182, 0.2) -15px 15px, rgba(155, 89, 182, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     border: 6px solid #9b59b6;
