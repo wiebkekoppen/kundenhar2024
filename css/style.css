@@ -1,50 +1,49 @@
 
 #outline{
     display:grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20vh 30vh auto 30vh;
+    grid-template-columns: 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667%;
+    grid-template-rows: 20vh 30vh auto 20vh;
     grid-gap: 20px;
     grid-template-areas:
    
-    "hd hd hd hd hd"
-    "nv1 nv1 nv1 nv1 nv1"
-    "mn1 mn1 mn1 mn1 mn1"
-    "ft ft ft ft ft";
+    "hd hd hd hd hd hd"
+    "nv1 nv1 nv1 nv1 nv1 nv1"
+    "mn1 mn1 mn1 mn1 mn1 mn1"
+    "ft ft ft ft ft ft";
 }
 
 
 #outline2{
     display:grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20vh 15vh 35vh 40vh 40vh 40vh 30vh;
+    grid-template-columns: 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667%;
+    grid-template-rows: 20vh 15vh 35vh 40vh 40vh 40vh 20vh;
     grid-gap: 20px;
     grid-template-areas: 
    
-    "hd hd hd hd hd"
-    "nv2 nv2 nv2 nv2 nv2"
-    "mn2 mn2 mn2 mn2 mn2"
-    "as21 se21 se21 se21 se21"
-    "as22 se22 se22 se22 se22"
-    "as23 se23 se23 se23 se23"
-    "ft ft ft ft ft";
+    "hd hd hd hd hd hd"
+    "nv2 nv2 nv2 nv2 nv2 nv2"
+    "mn2 mn2 mn2 mn2 mn2 mn2"
+    "as21 se21 se21 se21 se21 se21"
+    "as22 se22 se22 se22 se22 se22"
+    "as23 se23 se23 se23 se23 se23"
+    "ft ft ft ft ft ft";
 }
 
 
 #outline3{
     display:grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20vh 40vh 15vh 60vh 40vh 30vh;
+    grid-template-columns: 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667%;
+    grid-template-rows: 20vh 50vh 15vh 60vh 40vh 20vh;
     grid-gap: 20px;
     grid-template-areas: 
     
-    "hd hd hd hd hd"
-    "nv3 nv3 nv3 nv3 nv3"
-    "nv31 nv31 nv31 nv31 nv31"
-    "mn3 mn3 mn3 mn3 mn3"
-    "se3 se3 se3 se3 se3"
-    "ft ft ft ft ft";
+    "hd hd hd hd hd hd"
+    "nv3 nv3 nv3 nv3 nv3 nv3"
+    "nv31 nv31 nv31 nv31 nv31 nv31"
+    "mn3 mn3 mn3 mn3 mn3 mn3"
+    "se3 se3 se3 se3 se3 se3"
+    "ft ft ft ft ft ft";
 }
-
 
 header{
     display: flex;
@@ -52,13 +51,15 @@ header{
     align-items: center;
     grid-area: hd;
     width: 100%;
-    background-color:#74b659;
+    background-color:transparent;
     font-size: 20px;
     text-align: center;
     line-height: 0;
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: 5;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+
 
 }
 
@@ -71,13 +72,14 @@ header{
 
 footer{
     grid-area: ft;
-    background-color:#74b659;
+    background-color: transparent;
     font-size: 1rem;
-    padding: 1rem;
-    display: flex;
     justify-content: space-around;
-    padding: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+    grid-column-start: 2;
+    grid-column-end: 6;
+
 }
 
 
@@ -85,18 +87,23 @@ nav#nv1{
     grid-area: nv1;
     background-color:white;
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 6;
     font-size: 1rem;  
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+    
+  
 }
 
 nav#nv2{
     grid-area: nv2;
-    background-color:white;
+    background-color:transparent;
     grid-column-start: 2;
     grid-column-end: 3;
     font-size: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+
 }
 .undertitel{
 align-items: center;
@@ -106,20 +113,25 @@ text-align: center;
 
 nav#nv3{
     grid-area: nv3;
-    background-color:white;
+    background-color:transparent;
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 5;
     font-size: 1rem;
     text-align: center;
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
 }
 nav#nv31{
     grid-area: nv31;
-    background-color:white;
+    background-color:transparent;
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 5;
     font-size: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
 
 }
 
@@ -140,18 +152,22 @@ main#mn2{
     grid-column-end: 5;
     font-size: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+
 }
 main#mn3{
     grid-area: mn3;
     background-color:white;
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 6;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
     font-size: 1rem;
     padding: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+
 
 }
 
@@ -163,9 +179,9 @@ aside#as21{
     grid-column-start: 2;
     grid-column-end: 3;
     font-size: 1rem;
-    text-align: center;
     border-radius: 25px;
-
+    border: 6px solid #9b59b6;
+    text-align: center;
 }
 aside#as22{
     grid-area: as22;
@@ -175,6 +191,7 @@ aside#as22{
     font-size: 1rem;
     text-align: center;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
 }
 aside#as23{
     grid-area: as23;
@@ -185,6 +202,7 @@ aside#as23{
     text-align: center;
     border-radius: 25px;
     font-size: 1rem;
+    border: 6px solid #9b59b6;
 }
 
 
@@ -192,25 +210,31 @@ section#se21{
     grid-area: se21;
     background-color:white;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     font-size: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+
 }
 section#se22{
     grid-area: se22;
     background-color:white;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     font-size: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+
 }
 section#se23{
     grid-area: se23;
     background-color:white;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     font-size: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+
 }   
 
 section#se3{
@@ -218,12 +242,14 @@ section#se3{
     background-color:white;
     font-size: 20px;
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 6;
     display: flex;
     justify-content: space-around;
     padding: 1rem;
     font-size: 1rem;
     border-radius: 25px;
+    border: 6px solid #9b59b6;
+
 }
 
 
@@ -269,5 +295,9 @@ section#se3{
     box-shadow: rgba(155, 89, 182, 0.4) 5px 5px, rgba(155, 89, 182, 0.3) 10px 10px, rgba(155, 89, 182, 0.2) 15px 15px, rgba(155, 89, 182, 0.1) 20px 20px, rgba(155, 89, 182, 0.05) 25px 25px;
     border: 6px solid #9b59b6;
 
+}
+
+.bok1{
+    border: 6px solid #9b59b6;
 }
 
