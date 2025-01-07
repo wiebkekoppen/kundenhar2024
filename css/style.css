@@ -294,59 +294,72 @@ section#se3{
 
 .fantasy{ 
     box-shadow: rgba(155, 89, 182, 0.4) -5px 5px, rgba(155, 89, 182, 0.3) -10px 10px, rgba(155, 89, 182, 0.2) -15px 15px, rgba(155, 89, 182, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-    border: 6px solid #9b59b6;
-    
+    border: 6px solid #9b59b6;   
     position: relative;
     text-align: center;
     color: white;
 }
-.container{
-
-    position: relative;
-    text-align: center;
-    color: white;
-} 
-
 .drama{
     box-shadow: rgba(155, 89, 182, 0.4) -5px 5px, rgba(155, 89, 182, 0.3) -10px 10px, rgba(155, 89, 182, 0.2) -15px 15px, rgba(155, 89, 182, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     border: 6px solid #9b59b6;
-
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .biografi{
     box-shadow: rgba(155, 89, 182, 0.4) -5px 5px, rgba(155, 89, 182, 0.3) -10px 10px, rgba(155, 89, 182, 0.2) -15px 15px, rgba(155, 89, 182, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     border: 6px solid #9b59b6;
-
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .scifi{
     box-shadow: rgba(155, 89, 182, 0.4) 0px 5px, rgba(155, 89, 182, 0.3) 0px 10px, rgba(155, 89, 182, 0.2) 0px 15px, rgba(155, 89, 182, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
     border: 6px solid #9b59b6;
-
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .horror{
     box-shadow: rgba(155, 89, 182, 0.4) 0px 5px, rgba(155, 89, 182, 0.3) 0px 10px, rgba(155, 89, 182, 0.2) 0px 15px, rgba(155, 89, 182, 0.1) 0px 20px, rgba(155, 89, 182, 0.05) 0px 25px;
     border: 6px solid #9b59b6;
-
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .classics{
     box-shadow: rgba(155, 89, 182, 0.4) 0px 5px, rgba(155, 89, 182, 0.3) 0px 10px, rgba(155, 89, 182, 0.2) 0px 15px, rgba(155, 89, 182, 0.1) 0px 20px, rgba(155, 89, 182, 0.05) 0px 25px;
     border: 6px solid #9b59b6;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .barnbocker{
     box-shadow: rgba(155, 89, 182, 0.4) 5px 5px, rgba(155, 89, 182, 0.3) 10px 10px, rgba(155, 89, 182, 0.2) 15px 15px, rgba(155, 89, 182, 0.1) 20px 20px, rgba(155, 89, 182, 0.05) 25px 25px;
     border: 6px solid #9b59b6;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .romance{
     box-shadow: rgba(155, 89, 182, 0.4) 5px 5px, rgba(155, 89, 182, 0.3) 10px 10px, rgba(155, 89, 182, 0.2) 15px 15px, rgba(155, 89, 182, 0.1) 20px 20px, rgba(155, 89, 182, 0.05) 25px 25px;
     border: 6px solid #9b59b6;
-
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .dystopi{
     box-shadow: rgba(155, 89, 182, 0.4) 5px 5px, rgba(155, 89, 182, 0.3) 10px 10px, rgba(155, 89, 182, 0.2) 15px 15px, rgba(155, 89, 182, 0.1) 20px 20px, rgba(155, 89, 182, 0.05) 25px 25px;
     border: 6px solid #9b59b6;
-
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 
 img.logo{
     border-radius: 25px;
+}
+a {
+    text-decoration: none;
 }
