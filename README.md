@@ -12,17 +12,17 @@ Se ditt din dokumentationsmall för info om företag, syfte, målgrupp och huvud
 
 Layouten på alla sidor skall göras främst med **GRID**. Du skall göra 3 sidor på din webbsida.
 
-- [ ] 3 olika skisser över de olika sidorna  
-- [ ] Olika layout på sidor men konsekvent header \+ navigation   
-- [ ] En landing page \- Startsida **(GRID)**  
-- [ ] En cardssida (t.ex. anställda, företagets produkter eller liknande) **FLEX (i GRID) ex. till höger** →  
-- [ ] Den tredje sidan **skall lösas med GRID**  
-- [ ] Vanliga mappstrukturen i kursen. Undermappar **css**, **img**, **misc**.(misc ny, placera filer som inte passar andra mappar)  
-- [ ] Html-dokument i projektets huvudmapp. Passande filnamn. (inga nordiska tecken samt mellanslag)  
-- [ ] Totalt **tre html-sidor**, varav en landing page med namnet **index.html**  
-- [ ] Använd gärna **AI-genererad** text till **paragrafer/rubriker**.  
+- [ ja] 3 olika skisser över de olika sidorna  
+- [ ja] Olika layout på sidor men konsekvent header \+ navigation   
+- [ ja] En landing page \- Startsida **(GRID)**  
+- [ ja] En cardssida (t.ex. anställda, företagets produkter eller liknande) **FLEX (i GRID) ex. till höger** →  
+- [ja ] Den tredje sidan **skall lösas med GRID**  
+- [ja ] Vanliga mappstrukturen i kursen. Undermappar **css**, **img**, **misc**.(misc ny, placera filer som inte passar andra mappar)  
+- [ja ] Html-dokument i projektets huvudmapp. Passande filnamn. (inga nordiska tecken samt mellanslag)  
+- [ ja] Totalt **tre html-sidor**, varav en landing page med namnet **index.html**  
+- [ ja ] Använd gärna **AI-genererad** text till **paragrafer/rubriker**.  
 - [ ] Anpassa bilder/text så att de passar ihop. Originalfiler (ex. .psd, oredigerad jpg etc placeras i misc mappen) redigerade bilder i img.  
-- [ ] Lagermasker och justeringslager ska användas på minst en bild (t.ex. frilägga ansikte). Photoshop/Illustrator-filen läggs i misc-mappen. I img-mappen till projektet lägger ni den exporterade bilden som används på hemsidan (samt övriga bilder ni har använt). 
+- [ ja] Lagermasker och justeringslager ska användas på minst en bild (t.ex. frilägga ansikte). Photoshop/Illustrator-filen läggs i misc-mappen. I img-mappen till projektet lägger ni den exporterade bilden som används på hemsidan (samt övriga bilder ni har använt). 
 
 ## **GitHub \[v.47\]**
 

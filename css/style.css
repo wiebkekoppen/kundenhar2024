@@ -54,7 +54,7 @@ header{
     align-items: center;
     grid-area: hd;
     width: 100%;
-    background-color:transparent;
+    background-color:white;
     font-size: 20px;
     text-align: center;
     line-height: 0;
@@ -75,7 +75,7 @@ header{
 
 footer{
     grid-area: ft;
-    background-color: transparent;
+    background-color: white;
     font-size: 1rem;
     justify-content: space-around;
     border-radius: 25px;
@@ -347,3 +347,6 @@ section#se3{
 }
 
 
+img.logo{
+    border-radius: 25px;
+}
